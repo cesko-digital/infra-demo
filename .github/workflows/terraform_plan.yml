@@ -6,6 +6,7 @@ on:
 env:
   tf_version: '0.15.4'
   tf_working_dir: 'infrastructure/aws'
+  TF_VAR_data_bucket_name: ${{ secrets.BUCKET_NAME }}
 jobs:
   terraform:
     name: 'Terraform'
