@@ -1,0 +1,10 @@
+# General
+.DS_Store
+.idea
+
+# Terraform
+*.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform
+*.lock.hcl
