@@ -18,7 +18,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "data-bucket" {
   bucket = "1-terraform-cd-demo"
-  acl    = "private"
+  acl    = "public-read"
 }
 
 output "s3-arn" {
